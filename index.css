@@ -68,3 +68,28 @@ button {
 .function {
     color: red;
 }
+
+.calculator{
+    width: 90%;
+    max-width: 400px;
+}
+
+input{
+    margin: 10px 0;
+}
+
+@media screen and (max-width:600px){
+
+    button{
+        width: 55px;
+        height: 55px;
+        margin: 6px;
+        font-size: 18px;
+    }
+
+    input{
+        font-size: 30px;
+        padding: 18px;
+    }
+
+}
